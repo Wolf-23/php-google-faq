@@ -64,25 +64,23 @@ li a {
     font-weight: bold;
 }
 
-a.active {
+a.active, li a:hover {
     color: blue;
     padding-bottom: 14px;
     border-bottom: 3px solid blue;
 }
 
+/* Main */
+
 main {
     width: 80%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 .pb-25 {
     padding-bottom: 25px;
 }
-
-/* .sectionrequest p {
-    padding-bottom: 25px;
-} */
 
 .sectionrequest a {
     text-decoration: none;
@@ -91,12 +89,4 @@ main {
 .myRequest, .sectionrequest h3{
     color: rgb(55, 55, 55);
     padding: 35px 0;
-}
-
-.sectionrequest .myH3 {
-    color: rgb(55, 55, 55);
-    display: inline-block;
-    font-size: 20px;
-    font-weight: bold;
-    padding-top: 15px;
 }
